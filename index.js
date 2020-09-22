@@ -16,14 +16,14 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   switch(string) {
-      case string === whisper(string) || log.whisper(string):
+      case string.toLowerCase === string:
         return "I can't hear you!"
         break;
-      case string === shout(string) || log.shout(string):
+      case string.toUpperCase === string:
         return "YES INDEED!"
         break;
       case string === "I love you, Grandma.":
-        return "Ilove you, too."
+        return "I love you, too."
         break;
   }
 }
